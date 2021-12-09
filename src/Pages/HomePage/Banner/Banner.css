@@ -1,9 +1,9 @@
-.banner-title {
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: start;
-  margin-top: 50px;
-  margin-left: 200px;
 }
-
 .banner-title p {
   color: #00cf5d;
   font-weight: 900;
@@ -16,7 +16,7 @@
   font-size: 70px;
 }
 
-.banner-title h2 {
+.banner-title span {
   margin-top: 30px;
   color: #00cf5d;
   font-weight: 900;
@@ -49,4 +49,10 @@
   background-color: #00cf5d;
   color: white;
   transition: 0.5s ease-in-out;
+}
+
+.banner-image {
+  margin-left: 70px;
+  margin-top: 50px;
+  width: 30%;
 }

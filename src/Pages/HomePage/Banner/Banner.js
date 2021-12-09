@@ -1,14 +1,14 @@
 import React from "react";
 import "./Banner.css";
 import Typical from "react-typical";
+import image from "../../../../src/images/fazley.png";
 const Banner = () => {
   return (
-    <div>
+    <div className="banner">
       <div className="banner-title">
         <p>Hello! I'm</p>
         <h1>MD Rabbi Hossen</h1>
-        <h2>
-          <span className="text-white">I'm a</span>{" "}
+        <span>
           <Typical
             loop={Infinity}
             wrapper="b"
@@ -21,7 +21,7 @@ const Banner = () => {
               500,
             ]}
           />
-        </h2>
+        </span>
 
         <div className="banner-btn">
           <a
@@ -34,6 +34,14 @@ const Banner = () => {
           <button className="about-btn">About</button>
         </div>
       </div>
+      <img
+        data-aos="fade-left"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        src={image}
+        alt="fazley"
+        className="banner-image"
+      />
     </div>
   );
 };

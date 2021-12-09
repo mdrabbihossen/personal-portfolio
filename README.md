@@ -2,7 +2,7 @@
 
 Here is the Live Link: (https://rabby-hossen.web.app/)
 
- - In this Website You can know something about me:
+  In this Website You can know something about me:
 
  <ol>
  <li>Some of My Working Projects.</li>
@@ -10,7 +10,7 @@ Here is the Live Link: (https://rabby-hossen.web.app/)
  <li>You can contact with me with your email address.</li>
  </ol>
 
- - In this Website Uses:
+  In this Website Uses:
 
  <ul>
  <li>
@@ -21,5 +21,8 @@ Here is the Live Link: (https://rabby-hossen.web.app/)
  </li>
  <li>
  React Typical
+ </li>
+ <li>
+ React AOS Animation
  </li>
  </ul>
