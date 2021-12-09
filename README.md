@@ -2,18 +2,24 @@
 
 Here is the Live Link: (https://rabby-hossen.web.app/)
 
-In this Website You can know something about me-
+ - In this Website You can know something about me:
 
-1.Some of My Working Projects
-2.Something about me.
-3.You can contact with me with your email address.
+ <ol>
+ <li>Some of My Working Projects.</li>
+ <li>Something about me.</li>
+ <li>You can contact with me with your email address.</li>
+ </ol>
 
-In this Website Uses:
+ - In this Website Uses:
 
  <ul>
  <li>
- React JS,
- React Bootstrap,
+ React JS
+ </li>
+ <li>
+ React Bootstrap
+ </li>
+ <li>
  React Typical
  </li>
  </ul>
