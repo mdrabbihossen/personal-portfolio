@@ -1,0 +1,52 @@
+.banner-title {
+  text-align: start;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.banner-title p {
+  color: #00cf5d;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.banner-title h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+.banner-title h2 {
+  margin-top: 30px;
+  color: #00cf5d;
+  font-weight: 900;
+  font-size: 50px;
+}
+.banner-btn {
+  display: flex;
+}
+
+.get-resume-btn {
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  background-color: #00cf5d;
+  color: white;
+  border-radius: 3px;
+  padding: 14px 25px;
+}
+
+.about-btn {
+  border: 1px solid #00cf5d;
+  margin-top: 30px;
+  font-size: 18px;
+  margin-left: 50px;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 45px;
+}
+.about-btn:hover {
+  background-color: #00cf5d;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
