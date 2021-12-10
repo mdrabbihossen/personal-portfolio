@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import Typical from "react-typical";
-import image from "../../../../src/images/fazley.png";
+import image from "../../../images/banner.png";
 const Banner = () => {
   return (
     <div className="banner">
