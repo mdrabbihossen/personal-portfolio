@@ -3,9 +3,13 @@
   padding: 10px;
 }
 
+.footer p {
+  padding-top: 10px;
+}
 .social-icon a {
   color: rgb(190, 220, 250);
   font-size: 35px;
+  margin-left: 30px;
 }
 .footer span a {
   color: #e94560;
