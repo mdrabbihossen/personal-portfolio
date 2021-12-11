@@ -4,7 +4,7 @@ import Typical from "react-typical";
 import image from "../../../images/banner.png";
 const Banner = () => {
   return (
-    <div className="banner">
+    <div id="home" className="banner">
       <div className="banner-title">
         <p>Hello! I'm</p>
         <h1>MD Rabbi Hossen</h1>
@@ -29,14 +29,15 @@ const Banner = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="get-resume-btn">Get Resume</button>
+            <button className="get-resume-btn fw-bolder">Get Resume</button>
           </a>
-          <button className="about-btn">About</button>
+          <button className="about-btn fw-bolder">About</button>
         </div>
       </div>
       <img
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-duration="2000"
+        data-aos-anchor-placement="top-center"
         data-aos-easing="ease-in-out"
         src={image}
         alt="fazley"

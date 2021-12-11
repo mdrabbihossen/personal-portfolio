@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
       <Container>
         <div className="header-title">
           <p>
@@ -15,19 +15,19 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="">
           <Nav className="ms-auto">
-            <Nav.Link className="text-white" as={Link} to="/home">
+            <Nav.Link id="#home" className="text-white fw-bolder" as={Link} to="/home">
               Home
             </Nav.Link>
-            <Nav.Link className="text-white" as={Link} to="/projects">
+            <Nav.Link className="text-white fw-bolder" as={Link} to="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link className="text-white" as={Link} to="/blogs">
+            <Nav.Link className="text-white fw-bolder" as={Link} to="/blogs">
               Blogs
             </Nav.Link>
-            <Nav.Link className="text-white" as={Link} to="/about">
+            <Nav.Link className="text-white fw-bolder" as={Link} to="/about">
               About
             </Nav.Link>
-            <Nav.Link className="text-white" as={Link} to="/contact">
+            <Nav.Link className="text-white fw-bolder" as={Link} to="/contact">
               Contact
             </Nav.Link>
             <a
@@ -35,7 +35,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="resume-btn">Resume</button>
+              <button className="resume-btn fw-bolder">Resume</button>
             </a>
           </Nav>
         </Navbar.Collapse>

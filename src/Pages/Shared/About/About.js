@@ -1,17 +1,19 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "../../../images/about-img.png";
+
 const About = () => {
   return (
     <div className="about">
       <div className="about-title">
         <h3>About</h3>
-        <div className="about-bar"></div>
+        <div className="bar"></div>
       </div>
-      <div className="about-content">
+      <div className="about-content container">
         <div
           data-aos="fade-right"
           data-aos-duration="2000"
+          data-aos-anchor-placement="top-center"
           data-aos-easing="ease-in-out"
           className="about-text"
         >
@@ -26,6 +28,7 @@ const About = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
+            data-aos-anchor-placement="top-center"
             data-aos-easing="ease-in-out"
           >
             <button className="get-resume-btn">Get Resume</button>

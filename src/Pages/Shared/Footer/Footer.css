@@ -1,0 +1,12 @@
+.footer {
+  color: rgb(190, 220, 250);
+  padding: 10px;
+}
+
+.social-icon a {
+  color: rgb(190, 220, 250);
+  font-size: 35px;
+}
+.footer span a {
+  color: #e94560;
+}

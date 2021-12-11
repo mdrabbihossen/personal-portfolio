@@ -1,0 +1,26 @@
+[
+  {
+    "id": "projects-1",
+    "name": "Uni-Coach",
+    "img": "",
+    "desc": "",
+    "liveSite": "https://uni-coach-center.netlify.app/",
+    "githubRepo": ""
+  },
+  {
+    "id": "projects-2",
+    "name": "Medica-Health",
+    "img": "",
+    "desc": "",
+    "liveSite": "https://medica-ac3fb.web.app/",
+    "githubRepo": ""
+  },
+  {
+    "id": "projects-3",
+    "name": "Honda CRB",
+    "img": "",
+    "desc": "",
+    "liveSite": "https://uni-coach-center.netlify.app/",
+    "githubRepo": ""
+  }
+]

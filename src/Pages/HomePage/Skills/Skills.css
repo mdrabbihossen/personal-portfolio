@@ -1,0 +1,26 @@
+.skills {
+  margin-bottom: 100px;
+}
+
+.skills-title {
+  margin-top: 150px;
+  font-weight: 900;
+  font-size: 1.75rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-content {
+  margin-top: 70px;
+}
+.skills-content h4 {
+  color: #fff;
+  text-align: start;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+.progress-content {
+  margin-top: 40px;
+}
