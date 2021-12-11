@@ -8,7 +8,6 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="projects">
-
       <div className="projects-title">Projects</div>
       <div className="bar"></div>
       <div className="container ">

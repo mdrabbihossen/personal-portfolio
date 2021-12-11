@@ -5,7 +5,6 @@ import { ProgressBar } from "react-bootstrap";
 const Skills = () => {
   return (
     <div className="skills">
-     
       <div className="skills-title">
         <h3>Skills</h3>
         <div className="bar"></div>
