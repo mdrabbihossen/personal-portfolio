@@ -35,10 +35,11 @@ const Banner = () => {
         </div>
       </div>
       <img
-        data-aos="fade-right"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
         data-aos-duration="2000"
-        data-aos-anchor-placement="top-center"
-        data-aos-easing="ease-in-out"
+        data-aos-easing="ease-in-sine"
         src={image}
         alt="fazley"
         className="banner-image"
