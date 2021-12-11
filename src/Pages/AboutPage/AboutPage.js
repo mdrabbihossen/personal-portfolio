@@ -1,17 +1,16 @@
 import React from "react";
+import About from "../Shared/About/About";
 import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 
-const Blogs = () => {
+const AboutPage = () => {
   return (
     <div>
       <Header />
-      <div className="pt-5 mt-5 d-flex justify-content-center align-items-center text-white">
-        Will release Very Soon
-      </div>
+      <About />
       <Footer />
     </div>
   );
 };
 
-export default Blogs;
+export default AboutPage;
