@@ -36,8 +36,6 @@ const Banner = () => {
       </div>
       <img
         data-aos="fade-left"
-        data-aos-anchor="#example-anchor"
-        data-aos-offset="500"
         data-aos-duration="2000"
         data-aos-easing="ease-in-sine"
         src={image}

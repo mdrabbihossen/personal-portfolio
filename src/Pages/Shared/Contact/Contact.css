@@ -47,3 +47,16 @@
   border: none;
   background: none;
 }
+
+.send-mail {
+  border: 2px solid #2c3642;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 25px;
+  margin-top: 10px;
+}
+
+.send-mail:hover {
+  background: #2c3642;
+  border: 2px solid #2c3642;
+}

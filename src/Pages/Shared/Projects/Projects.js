@@ -10,7 +10,12 @@ const Projects = () => {
     <div className="projects">
       <div className="projects-title">Projects</div>
       <div className="bar"></div>
-      <div className="container ">
+      <div
+        data-aos="fade-right"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1000"
+        className="container"
+      >
         <Row xs={1} md={3} className="g-4 ">
           <Col>
             <Card className="projects-card">
