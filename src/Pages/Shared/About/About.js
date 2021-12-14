@@ -13,7 +13,6 @@ const About = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="2000"
-          data-aos-anchor-placement="top-center"
           data-aos-easing="ease-in-out"
           className="about-text"
         >
@@ -28,7 +27,6 @@ const About = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            data-aos-anchor-placement="top-center"
             data-aos-easing="ease-in-out"
           >
             <button className="get-resume-btn">Get Resume</button>
