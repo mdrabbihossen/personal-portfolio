@@ -3,6 +3,7 @@ import { Form } from "react-bootstrap";
 
 import "./Contact.css";
 const Contact = () => {
+   
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
@@ -38,6 +39,7 @@ const Contact = () => {
                   className="input"
                 />
               </Form.Group>
+              
             </Form>
           </div>
         </div>

@@ -30,7 +30,10 @@ const Footer = () => {
           <FaGithub />
         </a>
       </div>
-      <p> &copy; All rised reserved @MD Rabbi Hossen 2021</p>
+      <p>
+        {" "}
+        &copy; All rights reserved Made With &#128512; @MD Rabbi Hossen 2021
+      </p>
     </div>
   );
 };

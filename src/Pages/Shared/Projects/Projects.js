@@ -48,9 +48,9 @@ const Projects = () => {
             <Card className="projects-card">
               <Card.Img variant="top" src={hondaCrb} />
               <Card.Body>
-                <Card.Title className="project-title">Honda CRB</Card.Title>
+                <Card.Title className="project-title">Honda CBR</Card.Title>
                 <Card.Text className="project-desc">
-                  A web application that allows users to view and book CRB
+                  A web application that allows users to view and book CBR
                   services.
                 </Card.Text>
                 <Card.Footer className="project-footer">
